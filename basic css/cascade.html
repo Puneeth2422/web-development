@@ -1,0 +1,42 @@
+cascade.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color:blue;
+        }
+        .high p{
+            color:aquamarine;
+        }
+        #idhigh p {
+            color:red;          
+        } 
+        p{
+            color: inherit;/* inherits color from its parent*/
+        }
+        h1{
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>para 1</p>
+    </div>
+    <div Class="high">
+        <p>para 2</p>
+    </div>
+    <div class="idHigh">
+        <p>para 3</p>
+    </div>
+    <div>
+        <h1>this heading is purple because it overrides inhertence.</h1>
+        <p>this paragraph inherits green color from the div parent.</p>
+    </div>
+    
+</body>
+</html>
